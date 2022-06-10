@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+*{
+	margin: 0;
+	padding: 0;
+}	
+*/
+.header ul{
+	list-style-type: none;
+}
+.header ul li{
+	display: inline;
+	padding: 0 15px;
+}
+.header{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 135px;
+	align-items: center;
+}
+.header img{
+	height: 20px;
+}
+.benphai p{
+	padding: 20px;
+	display: inline;
+}
+.Maucam{
+	padding: 9px 19px;
+	color: white;
+	background-color: red;
+	border: none;
+}
+.banner h1{
+	font-weight: 800px;
+}
+.banner p{
+	width: 463px;
+}
+.banner{
+	display: flex;
+	align-items: center;
+	height: 530px;
+	background-color: slategray;
+	color: white;
+	padding: 85px 135px;
+}
+.banner img{
+	height: 88%
+}
+.sec4{
+	background-color: transparent;
+	height: 1430px;
+	text-align: center;
+	padding: 100px 135px;
+}
+.dong{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.cardlon{
+	background-color: antiquewhite;
+	border-radius: 14px;
+	text-align: left;
+	padding: 22px;
+}
+.dongcta{
+	display: flex;
+	justify-content: space-between;
+}
+.dongcta input{
+	border-radius: 14px;
+	background-color: transparent;
+	padding: 5px 14px;
+	border: 1px solid #D6CBC6;
+}
+.footer{
+	background-color: #1F0A00;
+	height: 649px;
+	color: white;
+	padding: 100px 135px;
+}
+
+
+
